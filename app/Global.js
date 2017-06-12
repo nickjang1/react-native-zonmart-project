@@ -1,0 +1,66 @@
+const Global = {
+  LanguageType: ['हिन्दी', 'English', 'Cancel'],
+  CategoryType: ['Electronics', 'Safety Equipments', 'All'],
+  user_token: '',
+  productId: '',
+  Languages: {
+    SetLanguage: ['Set Language', 'भाषा सेट करें'],
+    SearchForProducts: ['Search for products', 'उत्पादों के लिए खोज'],
+    // menu bar title
+    Electronics: ['Electronics', 'इलेक्ट्रानिक्स'],
+    SafetyEquipments: ['Safety Equipments', 'सुरक्षा उपकरणों'],
+    All: ['All', 'सब'],
+    FeaturedProducts: ['Featured Products', 'विशेष रुप से प्रदर्शित प्रोडक्टस'],
+    NewProducts: ['New Products', 'नये उत्पाद'],
+    HotDeals: ['Hot Deals', 'फायदेमंद सौदे'],
+    SpecialOffers: ['Special Offers', 'खास पेशकश'],
+    // Side bar
+    ShopByCategory: ['Shop by Category', 'वर्गों के अनुसार खरीदारी'],
+    MyCart: ['My Cart', 'मेरी गाड़ी'],
+    MyOrders: ['My Orders', 'मेरे आदेश'],
+    MyReviews: ['My Reviews', 'मेरे समीक्षा'],
+    FAQ: ['FAQ', 'सामान्य प्रश्न'],
+    Help: ['Help', 'मदद'],
+    UpdateProfile: ['Update Profile', 'प्रोफ़ाइल अपडेट करें'],
+    Logout: ['Log out', 'लोग आउट'],
+    Rate: ['Rate our App', 'हमारे आवेदन दर'],
+    // detail page
+    Detail: ['Detail', 'विस्तार'],
+    AddToCart: ['Add to Cart', 'कार्ट में जोड़ें'],
+    BuyNow: ['Buy Now', 'अभी खरीदें'],
+    // shopping cart page
+    ShoppingCart: ['Shopping Cart', 'शॉपिंग कार्ट'],
+    Coupon: ['Enter Coupon and avail discount', 'कूपन और छूट लाभ दर्ज'],
+    CartTotal: ['Cart Total', 'गाड़ी के कुल'],
+    Checkout: ['Checkout', 'चेक आउट'],
+    UpdateCart: ['Update Cart', 'कार्ट अपडेट करें'],
+    // checkout page
+    DeliveryAddr: ['Delivery Address', 'डिलिवरी का पता'],
+    FirstName: ['First Name', 'पहला नाम'],
+    LastName: ['Last Name', 'अंतिम नाम'],
+    Address1: ['Address 1', 'पता 1'],
+    Address2: ['Address 2', 'पता 2'],
+    PostalCode: ['Postal Code', 'डाक कोड'],
+    City: ['City', 'शहर'],
+    Province: ['Province', 'प्रांत'],
+    Phone: ['Phone', 'फ़ोन'],
+    Email: ['Email', 'ईमेल'],
+    SameBilling: ['Billing address is Same', 'बिलिंग पता ही है'],
+    NextStep: ['Next Step', 'अगला कदम'],
+    BillingAddr: ['Billing Address', 'बिल भेजने का पता'],
+    FinaliseOrder: ['Finalise the order', 'आदेश को अंतिम रूप'],
+    Cash: ['Cash on Delivery', 'डिलवरी पर नकदी'],
+    Confirm: ['Confirm', 'पुष्टि करें'],
+    // thankyou page
+    ShopMore: ['Shop More', 'अधिक दुकान'],
+    ThankyouPurchase: ['Thank you for the purchase', 'खरीद के लिए धन्यवाद'],
+    Invoice: ['Invoice', 'बीजक'],
+    OrderHistory: ['Order History', 'आदेश इतिहास'],
+    // order detail page
+    OrderDetail: ['Order Detail', 'ऑर्डर विवरण'],
+    Order: ['Order', 'व्यवस्था'],
+    // update progile page
+    Update: ['Update', 'अद्यतन'],
+  },
+};
+export default Global;
